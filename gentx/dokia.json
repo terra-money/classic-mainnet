@@ -1,0 +1,45 @@
+{
+  "type": "auth/StdTx",
+  "value": {
+    "msg": [
+      {
+        "type": "cosmos-sdk/MsgCreateValidator",
+        "value": {
+          "description": {
+            "moniker": "DokiaCapital-ION",
+            "identity": "25422F4ADF3F6765",
+            "website": "https://terra.dokia.capital",
+            "details": "We are open for delegations"
+          },
+          "commission": {
+            "rate": "0.100000000000000000",
+            "max_rate": "0.200000000000000000",
+            "max_change_rate": "0.010000000000000000"
+          },
+          "min_self_delegation": "1",
+          "delegator_address": "terra1v5hrqlv8dqgzvy0pwzqzg0gxy899rm4kdn0jp4",
+          "validator_address": "terravaloper1v5hrqlv8dqgzvy0pwzqzg0gxy899rm4kdur03x",
+          "pubkey": "terravalconspub1zcjduepqhjdhfh8mqy6ljakyw3ma9nls0jza6c8z530nxl0c3jpqmdvrsq9s3d9ll3",
+          "value": {
+            "denom": "uluna",
+            "amount": "10000000000"
+          }
+        }
+      }
+    ],
+    "fee": {
+      "amount": null,
+      "gas": "200000"
+    },
+    "signatures": [
+      {
+        "pub_key": {
+          "type": "tendermint/PubKeySecp256k1",
+          "value": "AsICOBNYDs+Jyw2UfKbmWmTfXozcpKHHlpG/Lv7cyEkw"
+        },
+        "signature": "hZkeBzxDi/sm1e1rhc/YD4gLtmvqp+qyZzBKNrtoLRh8+Lbxi/LwymID8XUpfIZis1iZ4O7Msaqc7tayALEIXg=="
+      }
+    ],
+    "memo": "dokia@0.0.0.0:26656"
+  }
+}
