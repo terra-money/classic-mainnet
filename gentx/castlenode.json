@@ -1,0 +1,45 @@
+{
+  "type": "auth/StdTx",
+  "value": {
+    "msg": [
+      {
+        "type": "cosmos-sdk/MsgCreateValidator",
+        "value": {
+          "description": {
+            "moniker": "Castlenode",
+            "identity": "DC34426544119615",
+            "website": "https://www.castlenode.com/terra",
+            "details": "Castlenode is a validator operator focused on security and run by experienced professionals. Please read our Terms and Conditions on our website before delegating"
+          },
+          "commission": {
+            "rate": "0.100000000000000000",
+            "max_rate": "0.500000000000000000",
+            "max_change_rate": "0.010000000000000000"
+          },
+          "min_self_delegation": "1",
+          "delegator_address": "terra13kcwnlafvu4xvy2jr3vhdte9aq9tadwds7nm67",
+          "validator_address": "terravaloper13kcwnlafvu4xvy2jr3vhdte9aq9tadwds3lx2d",
+          "pubkey": "terravalconspub1zcjduepqfahllg7jxppvu5mv5tmceytkfxc5fn6mqpzjnp4stkcg250d8zrsgt6e23",
+          "value": {
+            "denom": "uluna",
+            "amount": "100000000"
+          }
+        }
+      }
+    ],
+    "fee": {
+      "amount": null,
+      "gas": "200000"
+    },
+    "signatures": [
+      {
+        "pub_key": {
+          "type": "tendermint/PubKeySecp256k1",
+          "value": "Aj6/aQPUYh1aoZe4XOypE6uRLR1WcGl0ZuCmrxCsPUHX"
+        },
+        "signature": "k4nl31TyCDusCJPifbbY8FBV3dObEqH3VVXhGngCEP4gHr2KM1EJyERdlVWXwHh97A6PCtniyI2JHUsV27qr4w=="
+      }
+    ],
+    "memo": "e1332c92daa0b94bd68dc644d166e4fbf7cbbcef@77.87.108.29:26656"
+  }
+}
