@@ -1,0 +1,41 @@
+{
+    "type": "auth/StdTx",
+    "value": {
+        "msg": [{
+            "type": "cosmos-sdk/MsgCreateValidator",
+            "value": {
+                "description": {
+                    "moniker": "Terraforming",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                },
+                "commission": {
+                    "rate": "0.070000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "terra1hg70rkal5d86fl57k0gc7de0rrk4klgs520rzt",
+                "validator_address": "terravaloper1hg70rkal5d86fl57k0gc7de0rrk4klgs59r7jc",
+                "pubkey": "terravalconspub1zcjduepqdmz2fuu674znyn7yxchad9cc4ntajgt64rzm79tewy2e3sscvswsj3gj2t",
+                "value": {
+                    "denom": "uluna",
+                    "amount": "100000000"
+                }
+            }
+        }],
+        "fee": {
+            "amount": null,
+            "gas": "200000"
+        },
+        "signatures": [{
+            "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "AnS/HWtzN4VyCsc1MtyJzhcNRulvN9DhGPk8zfHEblQw"
+            },
+            "signature": "7ZQXmAJxLtFbIjxOFW1RSQqLqgcEzbMVBPazogHS4A8Lf/HGFI0nuD1QRZg9kdG0XkYs7jihLZ3ylKAlvkjjcg=="
+        }],
+        "memo": "66e6c0f560371ae6697904352df1ce38670bcb19@172.31.4.115:26656"
+    }
+}
