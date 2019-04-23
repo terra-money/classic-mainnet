@@ -43,7 +43,8 @@ We request known community members who wish to run public p2p seed nodes make pu
 
 ```
 Known seed node list: 
-
+e6325ba7c490ba371135c9f3fcead66da1bd8cf1@terra-sentry01.dokia.cloud:26656
+dba5defd7b120937da37aea7f37d06870637558d@terra-sentry02.dokia.cloud:26656
 
 ```
 
