@@ -43,6 +43,7 @@ Known seed node list:
 ba3bacc714817218562f743178228f23678b2873@public-seed-node.cosmoshub.certus.one:26656  // certus
 0621acccfc2c847e67d84eb234bcc26323a103c3@13.124.78.245:26656          // terraform labs
 6be0856f6365559fdc2e9e97a07d609f754632b0@terra-columbus-1-seed.nodes.polychainlabs.com:26656
+7e221b46a861085eee8f59afdf28454a66e650db@159.69.112.67:26656 // syncnode
 ```
 
 ```
