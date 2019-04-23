@@ -1,0 +1,45 @@
+{
+  "type": "auth/StdTx",
+  "value": {
+    "msg": [
+      {
+        "type": "cosmos-sdk/MsgCreateValidator",
+        "value": {
+          "description": {
+            "moniker": "Easy 2 Stake",
+            "identity": "4CFDC84DEF785EA3",
+            "website": "",
+            "details": ""
+          },
+          "commission": {
+            "rate": "0.200000000000000000",
+            "max_rate": "0.400000000000000000",
+            "max_change_rate": "0.050000000000000000"
+          },
+          "min_self_delegation": "1",
+          "delegator_address": "terra1d0vfj9zvxfgcm4yt4ze4u35mvhj57eg2knxyxl",
+          "validator_address": "terravaloper1d0vfj9zvxfgcm4yt4ze4u35mvhj57eg2ku2ekv",
+          "pubkey": "terravalconspub1zcjduepqhjw2s376eweeyq3awxexaeyn5p0ckd7k8tkam0zwlgzffkcssr6qht0nks",
+          "value": {
+            "denom": "uluna",
+            "amount": "100000000"
+          }
+        }
+      }
+    ],
+    "fee": {
+      "amount": null,
+      "gas": "200000"
+    },
+    "signatures": [
+      {
+        "pub_key": {
+          "type": "tendermint/PubKeySecp256k1",
+          "value": "Ax93/1H5mYkjiGB7nUakTiiaAbiLplcG/i6j0HwAZEXN"
+        },
+        "signature": "fHkbN5v/FubiL5V/7GB/jvSx1+kDzGYhHTlrmL+NXUBjHd7JkXLuvbrkO9+Mmga62Qw+CKmdpmy3ABcq17uaYA=="
+      }
+    ],
+    "memo": "38cbf953345ca292ce1da6c2715411bfbfd475f3@207.180.205.23:26656"
+  }
+}
