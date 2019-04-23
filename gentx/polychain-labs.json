@@ -1,0 +1,45 @@
+{
+  "type": "auth/StdTx",
+  "value": {
+    "msg": [
+      {
+        "type": "cosmos-sdk/MsgCreateValidator",
+        "value": {
+          "description": {
+            "moniker": "Polychain Labs",
+            "identity": "A51CE3B9CD649C3F",
+            "website": "",
+            "details": "Secure staking with Polychain Labs, the most experienced institutional grade staking team."
+          },
+          "commission": {
+            "rate": "0.200000000000000000",
+            "max_rate": "1.000000000000000000",
+            "max_change_rate": "0.010000000000000000"
+          },
+          "min_self_delegation": "1",
+          "delegator_address": "terra1lda78gzrjx0rsadtdk0zn4v7awtz6m9lrzcyjk",
+          "validator_address": "terravaloper1lda78gzrjx0rsadtdk0zn4v7awtz6m9lrd5ez9",
+          "pubkey": "terravalconspub1zcjduepq7sav4ru3szht422d8ytunersg7ahq6q7crkm3aulqnklpw9veqasgfjy38",
+          "value": {
+            "denom": "uluna",
+            "amount": "10000000"
+          }
+        }
+      }
+    ],
+    "fee": {
+      "amount": null,
+      "gas": "200000"
+    },
+    "signatures": [
+      {
+        "pub_key": {
+          "type": "tendermint/PubKeySecp256k1",
+          "value": "A462yv3kefF+cTMAFKncuD1/ys0b29lQc91H7fkAww5h"
+        },
+        "signature": "3ILBV6parpBwRaWd2DLakoc3ybNm8icjXtFMC33mHj127aF8zDRk+mWl/caZd0eqzjp5Ic2kdAzWGwSqWk3lag=="
+      }
+    ],
+    "memo": "df9b5fc6595013d247319ccf4528abb77b97a123@0.0.0.0:26656"
+  }
+}
