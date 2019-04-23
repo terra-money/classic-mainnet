@@ -1,0 +1,45 @@
+{
+  "type": "auth/StdTx",
+  "value": {
+    "msg": [
+      {
+        "type": "cosmos-sdk/MsgCreateValidator",
+        "value": {
+          "description": {
+            "moniker": "ATEAM",
+            "identity": "0CB9A4E7643FF992",
+            "website": "nodeateam.com",
+            "details": "Node A-Team promises to provide validator node operation services at the highest quality."
+          },
+          "commission": {
+            "rate": "0.100000000000000000",
+            "max_rate": "0.300000000000000000",
+            "max_change_rate": "0.100000000000000000"
+          },
+          "min_self_delegation": "1",
+          "delegator_address": "terra1tusfpgvjrplqg2fm7wacy4slzjmnzswcfn9puj",
+          "validator_address": "terravaloper1tusfpgvjrplqg2fm7wacy4slzjmnzswcfufuvp",
+          "pubkey": "terravalconspub1zcjduepqxwldt5hvylqaggs8nthxwepc0jxe85rvsrrcufgzfnu6fxtg2vlqmp66wp",
+          "value": {
+            "denom": "uluna",
+            "amount": "100000000"
+          }
+        }
+      }
+    ],
+    "fee": {
+      "amount": null,
+      "gas": "200000"
+    },
+    "signatures": [
+      {
+        "pub_key": {
+          "type": "tendermint/PubKeySecp256k1",
+          "value": "Ayos+iFRcqQ8pkhHUlOAK4uQFKQnBuWvfJljX7bRoC9m"
+        },
+        "signature": "Op2CncOtj5aLHM3YkK43dgkDLFBWfKqKwL1KZpPj0thj4fDp8Mhvd3yT9fyGYx7PakDP4UAsemWJ+wESzQ1Cvg=="
+      }
+    ],
+    "memo": "ateam@0.0.0.0:26656"
+  }
+}
