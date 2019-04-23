@@ -5137,23 +5137,6 @@
           }
         ],
         "sequence_number": "0",
-        "account_number": "99",
-        "address": "terra18fk2ye6m5wnnfrarpwycunnw0ls8564zw7jx5m",
-        "original_vesting": null,
-        "delegated_free": null,
-        "delegated_vesting": null,
-        "start_time": "0",
-        "end_time": "0",
-        "vesting_schedules": null
-      },
-      {
-        "coins": [
-          {
-            "denom": "uluna",
-            "amount": "100000000"
-          }
-        ],
-        "sequence_number": "0",
         "account_number": "100",
         "address": "terra1yad8pjqp93gvwkxa2aa5mh4vctzfs37eka279r",
         "original_vesting": null,
@@ -5558,7 +5541,7 @@
         "coins": [
           {
             "denom": "uluna",
-            "amount": "812465695000000"
+            "amount": "812465795000000"
           },
           {
             "denom": "usdr",
