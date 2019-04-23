@@ -3,13 +3,11 @@
 
 This repository contains the configuration parameters for the Columbus Network Genesis. Columbus is the first decentralized network of nodes communicating over [Terra Core](https://github.com/terra-project/core). 
 
-**_The Columbus mainnet will go live on April 23rd, 23:00 PST_**. 
+**_The Columbus mainnet will go live on April 23rd, 23:00 PST_** For participating validators, [the final genesis file](./genesis.json) is now up. Please bring up your nodes and get ready for launch!! 
 
 ## Important Notes for Validators
 
 1. **For genesis Validators**: Please follow [these instructions](INSTRUCTIONS.md) to prepare for genesis, claim rewards from the drill, and get ready for genesis. 
-
-:: At this time, Please use [this genesis file](./penultimate_genesis.json) to create your gentx.json file, and send a pull request to the /gentx directory. You must do this by  **23 April 2019 02:00 PST** to participate in the genesis.
 
 2. **To stay updated for the genesis**: Please monitor the validator chat on Discord in real time to stay coordinated with Terraform Labs and the rest of the community regarding the launch. 
 
@@ -32,7 +30,6 @@ We will be making announcements regarding the launch using these channels, so pl
 
 ### Genesis files
  
-- `/accounts`: Contains addresses and genesis allocations for employees, supporters, terraform labs, and validators. 
 - `penultimate_genesis.json`: The near-final genesis file, minus the gentx data validators must create and submit with this as the reference. 
 - `/gentx`: Genesis transactions to create validators, submitted by each validator. 
 - `/genesis.json`: The final genesis file that will be used to launch columbus.
