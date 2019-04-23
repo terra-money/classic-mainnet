@@ -6,7 +6,7 @@ This repository contains the configuration parameters for the Columbus Network G
 **_The Columbus mainnet will go live on April 23rd, 23:00 PST_** For participating validators, [the final genesis file](./genesis.json) is now up. Please bring up your nodes and get ready for launch!! 
 
 
-**_Seed Node
+## Seed Node
 0621acccfc2c847e67d84eb234bcc26323a103c3@13.124.78.245:26656
 
 ## Important Notes for Validators
