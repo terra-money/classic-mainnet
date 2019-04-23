@@ -5,10 +5,6 @@ This repository contains the configuration parameters for the Columbus Network G
 
 **_The Columbus mainnet will go live on April 23rd, 23:00 PST_** For participating validators, [the final genesis file](./genesis.json) is now up. Please bring up your nodes and get ready for launch!! 
 
-
-## Seed Node
-0621acccfc2c847e67d84eb234bcc26323a103c3@13.124.78.245:26656
-
 ## Important Notes for Validators
 
 1. **For genesis Validators**: Please follow [these instructions](INSTRUCTIONS.md) to prepare for genesis, claim rewards from the drill, and get ready for genesis. 
@@ -44,7 +40,10 @@ We request known community members who wish to run public p2p seed nodes make pu
 
 ```
 Known seed node list: 
-ba3bacc714817218562f743178228f23678b2873@public-seed-node.cosmoshub.certus.one:26656
+ba3bacc714817218562f743178228f23678b2873@public-seed-node.cosmoshub.certus.one:26656  // certus
+0621acccfc2c847e67d84eb234bcc26323a103c3@13.124.78.245:26656          // terraform labs
+
+
 
 ```
 
