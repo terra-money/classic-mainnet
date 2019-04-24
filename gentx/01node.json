@@ -1,0 +1,45 @@
+{
+  "type": "auth/StdTx",
+  "value": {
+    "msg": [
+      {
+        "type": "cosmos-sdk/MsgCreateValidator",
+        "value": {
+          "description": {
+            "moniker": "01node.com",
+            "identity": "552A83BA62F9B1F8",
+            "website": "https://01node.com",
+            "details": "01node Staking Services"
+          },
+          "commission": {
+            "rate": "0.100000000000000000",
+            "max_rate": "0.150000000000000000",
+            "max_change_rate": "0.010000000000000000"
+          },
+          "min_self_delegation": "1",
+          "delegator_address": "terra1khfcg09plqw84jxy5e7fj6ag4s2r9wqsg5jt4x",
+          "validator_address": "terravaloper1khfcg09plqw84jxy5e7fj6ag4s2r9wqsgm7k94",
+          "pubkey": "terravalconspub1zcjduepq7fv9xvyak6eq3txdsc35jt7umtmn0hetgckysd80r9cd6cjaq89skpah5r",
+          "value": {
+            "denom": "uluna",
+            "amount": "100000000"
+          }
+        }
+      }
+    ],
+    "fee": {
+      "amount": null,
+      "gas": "200000"
+    },
+    "signatures": [
+      {
+        "pub_key": {
+          "type": "tendermint/PubKeySecp256k1",
+          "value": "A1U+R38n5V8688cQWp3ZEhrqjO1XtSJrFC8cvPuQCEE9"
+        },
+        "signature": "mY9jURL5i59OZJz4n4O3g35ZCfjcvLQ8RYYkisOJvnNZdoVFxfpuDIA33PKAJvdw5Q3UuLYnUDp2BoDJkOdvbg=="
+      }
+    ],
+    "memo": "01node.com@0.0.0.0:26656"
+  }
+}

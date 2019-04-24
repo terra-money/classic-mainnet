@@ -1,0 +1,45 @@
+{
+  "type": "auth/StdTx",
+  "value": {
+    "msg": [
+      {
+        "type": "cosmos-sdk/MsgCreateValidator",
+        "value": {
+          "description": {
+            "moniker": "Certus One",
+            "identity": "ABD51DF68C0D1ECF",
+            "website": "https://certus.one",
+            "details": "Stake and earn rewards with the most secure and stable validator. Winner of the Game of Stakes. Operated by Certus One Inc. By delegating, you confirm that you are aware of the risk of slashing and that Certus One Inc is not liable for any potential damages to your investment."
+          },
+          "commission": {
+            "rate": "0.125000000000000000",
+            "max_rate": "0.300000000000000000",
+            "max_change_rate": "0.010000000000000000"
+          },
+          "min_self_delegation": "1",
+          "delegator_address": "terra1kprce6kc08a6l03gzzh99hfpazfjeczfpd6td0",
+          "validator_address": "terravaloper1kprce6kc08a6l03gzzh99hfpazfjeczfpzkkau",
+          "pubkey": "terravalconspub1zcjduepqj9df650cl97huhgumrke9tjhf50yrxpwdywhyhl9540fjh9tf5yqyf29m6",
+          "value": {
+            "denom": "uluna",
+            "amount": "100000000"
+          }
+        }
+      }
+    ],
+    "fee": {
+      "amount": null,
+      "gas": "200000"
+    },
+    "signatures": [
+      {
+        "pub_key": {
+          "type": "tendermint/PubKeySecp256k1",
+          "value": "AsT0U7Uzbhn7pRzMuTdwcihQKdxgy6fG+2HlamiUhzBt"
+        },
+        "signature": "2QdC4qkr3AOTqG+RpWBeDjNjxoLlNfUT4owIy2jLed4FVcfhMtbPoX5d+z2lHlVwID2diCvhWVu1yjvuUAFWRg=="
+      }
+    ],
+    "memo": "b416f0b04e2c71b8d76f393468352030e4dcf2a9@0.0.0.0"
+  }
+}

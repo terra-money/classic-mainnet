@@ -22,7 +22,6 @@ terrad gentx \
   --commission-max-change-rate <commission_max_change_rate> \
   --pubkey <consensus_pubkey> \
   --name <key_name>
-  --min-self-delegation "1uluna"
 ```
 
 This will produce a file in the ~/.terrad/config/gentx/ folder that has a name with the format `gentx-<node_id>.json`. The content of the file should have a structure as follows:
@@ -89,7 +88,7 @@ cp ~/.terrad/config/gentx/gentx-<node_id>.json ./gentx/<moniker>.json
 
 2. ~~**22 April 2019 09:00 PST**: Terraform Labs will publish its `penultimate_genesis.json` file to be used by validators to assemble genesis transactions.~~ 
 
-3. **23 April 2019 02:00 PST**: By this time, all genesis validators MUST submit a gentx PR to this repository to be included in the genesis block. We will not be accepting gentxs past this time.
+3. ~~**23 April 2019 02:00 PST**: By this time, all genesis validators MUST submit a gentx PR to this repository to be included in the genesis block. We will not be accepting gentxs past this time.~~
 
 4. **23 April 2019 05:00 PST**: At this point, Terraform Labs will publish the `genesis.json` file containing the gentx submissions from validators. Validators should replace their `penultimate_genesis.json` file with this file. 
 

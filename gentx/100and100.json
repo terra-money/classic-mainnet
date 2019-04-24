@@ -1,0 +1,4 @@
+{"type":"auth/StdTx","value":{"msg":[{"type":"cosmos-sdk/MsgCreateValidator","value":{"description":{"moniker":"100100vc","identity":"","website":"","details":""},"commission":{"rate":"0.100000000000000000","max_rate":"0.200000000000000000","max_change_rate":"0.010000000000000000"},"min_self_delegation":"3000000000000","delegator_address":"terra16xr5kdu5xv7htepnd36q8wn3ayjd7p7kv2eskc","validator_address":"terravaloper16xr5kdu5xv7htepnd36q8wn3ayjd7p7kv94dxt","pubkey":"terravalconspub1zcjduepq4pay889tjpnct4tn2garufyw7u7amy48wv8970duup5c0d2d04gs4m0yaj","value":{"denom":"uluna","amount":"6000000000000"}}}],"fee":{"amount":null,"gas":"200000"},"signatures":[{"pub_key":{"type":"tendermint/PubKeySecp256k1","value":"A4w9ED656oAY0Y1/mMzaGUhf8imQ602kIV8hyQc47D4A"},"signature":"1FuBStr+WV9YO1ZGfhEcz13ychGYz3MySAdYTurGZjZUkiZHbhWyGHCwxB53QgD2iKPht6iq9ANWV2vuIHTb+w=="}],"memo":"2b58005645fc44b2ba37933e152a98d2e4202050@172.31.25.24:26656"}}
+
+
+

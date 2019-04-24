@@ -1,0 +1,45 @@
+{
+    "type": "auth/StdTx",
+    "value": {
+        "msg": [
+            {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                    "description": {
+                        "moniker": "Arrington XRP Capital",
+                        "identity": "",
+                        "website": "",
+                        "details": ""
+                    },
+                    "commission": {
+                        "rate": "0.100000000000000000",
+                        "max_rate": "0.200000000000000000",
+                        "max_change_rate": "0.010000000000000000"
+                    },
+                    "min_self_delegation": "1",
+                    "delegator_address": "terra1c6gve6zhye5690563wxmvns7mugz6plu4j7raz",
+                    "validator_address": "terravaloper1c6gve6zhye5690563wxmvns7mugz6plu4aj7d3",
+                    "pubkey": "terravalconspub1zcjduepq9yg0eyeh7530ecyz9jh6sda3v5tfmehnfpppnxz4txavlmklp7eqq6hqct",
+                    "value": {
+                        "denom": "uluna",
+                        "amount": "100000000"
+                    }
+                }
+            }
+        ],
+        "fee": {
+            "amount": null,
+            "gas": "200000"
+        },
+        "signatures": [
+            {
+                "pub_key": {
+                    "type": "tendermint/PubKeySecp256k1",
+                    "value": "Agy05kjtbVB6VS/4mzNOoR+s/UnLFqYiWGLkDcKDitL0"
+                },
+                "signature": "hMOJQbTZi4IfTWZmecZjnyZ8UvpsPSwuXA+awWLm0IRUVv2B7H8O5kRlKPvlswCqJrPLRT5L5kNEZv2y2GJ0FA=="
+            }
+        ],
+        "memo": "d12b0d4753e3963d2ac99aa866e5bd9b4ff8ad92@10.0.1.41:26656"
+    }
+}

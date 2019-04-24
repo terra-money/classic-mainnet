@@ -3,13 +3,11 @@
 
 This repository contains the configuration parameters for the Columbus Network Genesis. Columbus is the first decentralized network of nodes communicating over [Terra Core](https://github.com/terra-project/core). 
 
-**_The Columbus mainnet will go live on April 23rd, 23:00 PST_**. 
+**_The Columbus mainnet will go live on April 23rd, 23:00 PST_** For participating validators, [the final genesis file](./genesis.json) is now up. Please bring up your nodes and get ready for launch!! 
 
 ## Important Notes for Validators
 
 1. **For genesis Validators**: Please follow [these instructions](INSTRUCTIONS.md) to prepare for genesis, claim rewards from the drill, and get ready for genesis. 
-
-:: At this time, Please use [this genesis file](./penultimate_genesis.json) to create your gentx.json file, and send a pull request to the /gentx directory. You must do this by  **23 April 2019 02:00 PST** to participate in the genesis.
 
 2. **To stay updated for the genesis**: Please monitor the validator chat on Discord in real time to stay coordinated with Terraform Labs and the rest of the community regarding the launch. 
 
@@ -32,7 +30,6 @@ We will be making announcements regarding the launch using these channels, so pl
 
 ### Genesis files
  
-- `/accounts`: Contains addresses and genesis allocations for employees, supporters, terraform labs, and validators. 
 - `penultimate_genesis.json`: The near-final genesis file, minus the gentx data validators must create and submit with this as the reference. 
 - `/gentx`: Genesis transactions to create validators, submitted by each validator. 
 - `/genesis.json`: The final genesis file that will be used to launch columbus.
@@ -43,8 +40,22 @@ We request known community members who wish to run public p2p seed nodes make pu
 
 ```
 Known seed node list: 
+b416f0b04e2c71b8d76f993468352030e2dcf2a9@public-seed-node.columbus.certus.one:26656  // certus
+0621acccfc2c847e67d84eb234bcc26323a103c3@public-seed.terra.dev:26656  // terraform labs
+46bba3a2c615ea5b569f086344f932fa11e81c01@public-seed2.terra.dev:26656 // terraform labs
+6be0856f6365559fdc2e9e97a07d609f754632b0@terra-columbus-1-seed.nodes.polychainlabs.com:26656
+7e221b46a861085eee8f59afdf28454a66e650db@159.69.112.67:26656 // syncnode
+```
 
-
+```
+Known peers:  
+e6325ba7c490ba371135c9f3fcead66da1bd8cf1@terra-sentry01.dokia.cloud:26656
+dba5defd7b120937da37aea7f37d06870637558d@terra-sentry02.dokia.cloud:26656
+eb4ce12133c450ba6665e06309570ea2843e21d8@167.86.104.33:26656
+7277be5ce17d60cf26c92a7cafbb9fc7da7f2be5@51.38.103.128:26656 // Castlenode
+f88127d88f092b4eb4c175c5297a6b1dac649e37@52.79.175.188:26656 // de-light.io
+c7d4783415260b92d77b5fb74b1d86c6f4e69a1e@139.99.78.157:26656 // Figment 
+1cb3e13efe7ca25fb68249169a15e85e53c3b3e9@terra-main.peer.nodeateam.kr:26656 // A Team
 ```
 
 ## Disclaimer

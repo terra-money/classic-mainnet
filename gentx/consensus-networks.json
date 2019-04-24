@@ -1,0 +1,45 @@
+{
+  "type": "auth/StdTx",
+  "value": {
+    "msg": [
+      {
+        "type":"cosmos-sdk/MsgCreateValidator",
+        "value":{
+          "description":{
+            "moniker":"consensus-networks",
+            "identity":"",
+            "website":"",
+            "details":""
+          },
+          "commission":{
+            "rate":"0.100000000000000000",
+            "max_rate":"0.100000000000000000",
+            "max_change_rate":"0.010000000000000000"
+          },
+          "min_self_delegation":"1",
+          "delegator_address":"terra1hz754zdldnrrhp3qpfan3l2dxkcv5cgkudva4l",
+          "validator_address":"terravaloper1hz754zdldnrrhp3qpfan3l2dxkcv5cgkuzqq9v",
+          "pubkey":"terravalconspub1zcjduepqnas7uqj8qm47h8pwr7upcnu6caw438sxy4uhgzuus95a2yu97ffqm7fpdw",
+          "value":{
+            "denom":"uluna",
+            "amount":"100000000"
+          }
+        }
+      }
+    ],
+    "fee":{
+      "amount":null,
+      "gas":"200000"
+    },
+    "signatures":[
+      {
+        "pub_key":{
+          "type":"tendermint/PubKeySecp256k1",
+          "value":"AgXplrYFHm4IE8tDi8KWihsbNVYygjh2iElxpZa+xb5z"
+        },
+        "signature":"73gHsYDrG1u99Cu4AKHXLObk5vCq+u2BOk6+GI19x7o+p2RSN5yZaO3DKJjpJDGsjUtnH0qmk0s3RpdFmHJh0A=="
+      }
+    ],
+    "memo":"a92136e6a13005c3f95198cd1ddf5763c24ec5aa@172.31.31.4:26656"
+  }
+}
