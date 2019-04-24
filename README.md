@@ -41,7 +41,8 @@ We request known community members who wish to run public p2p seed nodes make pu
 ```
 Known seed node list: 
 b416f0b04e2c71b8d76f993468352030e2dcf2a9@public-seed-node.columbus.certus.one:26656  // certus
-0621acccfc2c847e67d84eb234bcc26323a103c3@13.124.78.245:26656          // terraform labs
+0621acccfc2c847e67d84eb234bcc26323a103c3@13.124.78.245:26656  // terraform labs
+46bba3a2c615ea5b569f086344f932fa11e81c01@211.249.50.106:26656 // terraform labs
 6be0856f6365559fdc2e9e97a07d609f754632b0@terra-columbus-1-seed.nodes.polychainlabs.com:26656
 7e221b46a861085eee8f59afdf28454a66e650db@159.69.112.67:26656 // syncnode
 ```
