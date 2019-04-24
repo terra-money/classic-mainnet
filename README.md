@@ -56,6 +56,7 @@ eb4ce12133c450ba6665e06309570ea2843e21d8@167.86.104.33:26656
 f88127d88f092b4eb4c175c5297a6b1dac649e37@52.79.175.188:26656 // de-light.io
 c7d4783415260b92d77b5fb74b1d86c6f4e69a1e@139.99.78.157:26656 // Figment 
 1cb3e13efe7ca25fb68249169a15e85e53c3b3e9@terra-main.peer.nodeateam.kr:26656 // A Team
+46bc5183ef3b6ea9ffa84df16d6a5aa4a642427a@node.terra.forbole.com:26656 // Forbole
 ```
 
 ## Disclaimer
