@@ -55,7 +55,7 @@ eb4ce12133c450ba6665e06309570ea2843e21d8@167.86.104.33:26656
 7277be5ce17d60cf26c92a7cafbb9fc7da7f2be5@51.38.103.128:26656 // Castlenode
 f88127d88f092b4eb4c175c5297a6b1dac649e37@52.79.175.188:26656 // de-light.io
 c7d4783415260b92d77b5fb74b1d86c6f4e69a1e@139.99.78.157:26656 // Figment 
-1cb3e13efe7ca25fb68249169a15e85e53c3b3e9@terra-main.peer.nodeateam.kr:26656 // A Team
+1cb3e13efe7ca25fb68249169a15e85e53c3b3e9@terra-main.peer.nodeateam.kr:26656 // Node A-Team
 46bc5183ef3b6ea9ffa84df16d6a5aa4a642427a@node.terra.forbole.com:26656 // Forbole
 2df06e5217e73f27aede0ea0a9c1b8464ee5cf05@157.230.35.228:26656 // B-Harvest
 ```
