@@ -83,7 +83,7 @@ Without further ado, here are the genesis delegation rewards. All units are in u
 | Hashed             | 1 |   |   |   |   | 1     | 
 | Polychain          | 1 |   |   |   |   | 1     | 
 | 100100vc           | 1 |   |   |   |   | 1     | 
-| Certus One         | 1 | 1 | 1 | 1 |   | 4     | 
+| Certus One         | 1 | 2 | 1 | 1 |   | 5     | 
 | Chorus One         | 1 |   | 1 | 1 | 3 | 6     | 
 | DokiaCapital       | 1 |   | 1 |   |   | 2     | 
 | Terraforming       | 1 |   | 1 |   |   | 2     | 
@@ -115,8 +115,7 @@ Without further ado, here are the genesis delegation rewards. All units are in u
 | TzDutch.com        |   |   |   |   |   | 0.2   | 
 | Ubik Capital       |   |   |   |   |   | 0.2   | 
 | Umbrella           |   |   |   | 1 |   | 1     | 
-|--------------------|---|---|---|---|---|-------| 
-| Total              |   |   |   |   |   | 57    | 
+| Total              |   |   |   |   |   | 58    | 
 
 
 ## Looking Ahead
