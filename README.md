@@ -13,7 +13,7 @@ This repository contains the configuration parameters for the Columbus Network G
 
 ## Genesis Background
 
-Terra is a project that is made possible thanks to the collective effort of its global community. Those of you interested in finding out the background of its genesis please see [here](./GENESIS.md) and our [blog](https://medium.com/terra-money). Final parameter settings for Columbus can be found [here](./params.README.md). 
+Terra is a project that is made possible thanks to the collective effort of its global community. Those of you interested in finding out the background of its genesis please see [here](./GENESIS.md) and our [blog](https://medium.com/terra-money). Final parameter settings for Columbus can be found [here](./params/README.md). 
 
 ## Terra community 
 
@@ -32,7 +32,7 @@ We will be making announcements regarding the launch using these channels, so pl
  
 - `penultimate_genesis.json`: The near-final genesis file, minus the gentx data validators must create and submit with this as the reference. 
 - `/gentx`: Genesis transactions to create validators, submitted by each validator. 
-- `/genesis.json`: The final genesis file that will be used to launch columbus.
+- `/genesis.json`: The final genesis file that is be used to launch columbus.
 
 ### Seed Nodes
 
