@@ -10,7 +10,7 @@ Generally the steps to create a validator are as follows:
 
 2. [Setup your genesis keys](https://docs.terra.money/guide/users)
 
-3. Download the [genesis template file](https://raw.githubusercontent.com/terra-project/launch/master/params/genesis_template.json) to `~/.terrad/config/genesis.json`. Note that the final genesis file is currently being formed. You will be asked to replace the temporary genesis file with the genesis.json file later. 
+3. Download the [genesis template file](https://raw.githubusercontent.com/terra-project/launch/master/params/genesis_template.json) to `~/.terrad/config/genesis.json`. You will be asked to replace the temporary genesis file with the genesis.json file later. 
 
 4. Sign a genesis transaction:
 
