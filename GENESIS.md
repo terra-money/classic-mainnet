@@ -62,17 +62,17 @@ In celebration of the Columbus genesis blocks and 100,000 others thereafter, Ter
 
 1. **Genesis validator**: Supporting the network from the beginning is important. The list of genesis validators is available in the `/gentx` folder. We've made an exception for Chainflow, whose gentx was discluded due to our merging error. 
 
-2. **Developed ecosystem tools (ongoing)**: Several validators have chosen to create various wallets and block explorers to support the ecosystem. Special shoutout is due to Certus, for their gentx validation bot; Figment for their Hubble explorer, and to Staking Fund for their stake.id explorer which proved to be instrumental for the drill and the early days of the mainnet. Several validators are still developing ecosystem tools; when they are complete, please let the team know and we will make sure to follow up with additional grants. 
+2. **Developed ecosystem tools (ongoing)**: Several validators have chosen to create various wallets and block explorers to support the ecosystem. Special shoutout is due to Certus, for their gentx validation bot; Figment for their Hubble explorer, and to Staking Fund for their stake.id explorer which proved to be instrumental for the drill. Several validators are still developing ecosystem tools; when they are complete, please let the team know and we will make sure to follow up with additional grants. 
 
-3. **Knowledge Share (ongoing)**: Several validators have added to the Terra Community's collective understanding of core mechanisms. This can involve running community groups, hosting AMAs, writing articles, and publishing analyses. Special thanks to Terraforming for running Terra's unofficial Korean community, Chorus for hosting an AMA with Do, B-Harvest for enlightening the Terra team on potential oracle attack vectors, Dokia Capital for finding the only bug during the short drill, and Easy-2-stake for helping other validators get set up. We will be keeping up knowledge share grants ongoing as well, so if you have vectors of value addition, please let us know. 
+3. **Knowledge Share (ongoing)**: Several validators have added to the Terra Community's collective understanding of core mechanisms. This can involve running community groups, hosting AMAs, writing articles, and publishing analysis reports. Special thanks to Terraforming for running Terra's unofficial Korean community, Chorus for hosting an AMA with Do, B-Harvest for enlightening the Terra team on potential oracle attack vectors, Dokia Capital for finding the only bug during the short drill, and Easy-2-stake for helping setups. We will be keeping up knowledge share grants ongoing as well, so if you have further items of value addition, please let us know. 
 
-4. **Worthy Setups (ongoing)**: It is important to have validator setups that are publicly verifiable to the wider public. Running a validator is a financial service - if you expect to handle other people's money, you need to let them know how you plan to keep it safe and sound. We've taken the last few days to visit all the websites we could find and believe Certus, Chorus, Iqlusion, Castlenode, Forbole, and Umbrella validators to have publicly available guides explaining their validator architecture to be worthy. It is possible we've missed several people - please let us know if we have. 
+4. **Worthy Setups (ongoing)**: It is important to have validator setups that are publicly verifiable to the wider public. Running a validator is a financial service - if you expect to handle other people's money, you need to prove your security. We've taken the last few days to visit all the websites we could find and believe Certus, Chorus, Iqlusion, Castlenode, Forbole, and Umbrella validators to have publicly available guides explaining their robust validator architectures. It is possible we've missed several of you - please let us know if we have. 
 
 5. **Drill winners**: Mentioned above. Weighted a bit higher than the other buckets, because you know, we'd like you all to pay close attention. 
 
 As you can notice, most grant criteria is being run on an ongoing basis. Please continue to contribute to the community, and we will make sure to keep the grants coming (until we run out). 
 
-::Although a drill winner, we've had to disclude the Cosmostation validator from genesis rewards, as their validator was jailed within the first 100k blocks. Next time! 
+::Although a drill winner, we've elected to disclude the Cosmostation validator from genesis rewards, as their validator was jailed within the first 100k blocks. Next time! 
 
 ::We've also given 0.2 million Luna delegation rewards to late joiners, just to be nice. Happy to have you! 
 
@@ -106,7 +106,7 @@ Without further ado, here are the genesis delegation rewards. All units are in u
 | Genesis Lab        | 1 |   |   |   |   | 1     | 
 | Kytzu              | 1 |   |   |   |   | 1     | 
 | P2p org            | 1 |   |   |   |   | 1     | 
-| POS Bakerz         |   |   |   |   |   | 0     | 
+| POS Bakerz         |   |   |   |   |   | 0.2   | 
 | Stake Zone         |   |   |   |   |   | 0.2   | 
 | StakerSpace        | 1 |   |   |   |   | 1     | 
 | StakingFund        | 1 | 2 |   |   | 3 | 6     | 
@@ -115,7 +115,7 @@ Without further ado, here are the genesis delegation rewards. All units are in u
 | TzDutch.com        |   |   |   |   |   | 0.2   | 
 | Ubik Capital       |   |   |   |   |   | 0.2   | 
 | Umbrella           |   |   |   | 1 |   | 1     | 
-| Total              |   |   |   |   |   | 58    | 
+| Total              |   |   |   |   |   | 58.2  | 
 
 
 ## Looking Ahead
