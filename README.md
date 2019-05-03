@@ -3,7 +3,7 @@
 
 This repository contains the configuration parameters for the Columbus Network Genesis. Columbus is the first decentralized network of nodes communicating over [Terra Core](https://github.com/terra-project/core). 
 
-**_The Columbus mainnet will go live on April 23rd, 23:00 PST_** For participating validators, [the final genesis file](./genesis.json) is now up. Please bring up your nodes and get ready for launch!! 
+**Columbus-1 has now launched. This repo is kept alive for archival purposes.**
 
 ## Important Notes for Validators
 
