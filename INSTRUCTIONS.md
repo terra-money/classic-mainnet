@@ -10,7 +10,7 @@ Generally the steps to create a validator are as follows:
 
 2. [Setup your genesis keys](https://docs.terra.money/guide/users)
 
-3. Download the [genesis template file](https://raw.githubusercontent.com/terra-project/launch/master/params/genesis_template.json) to `~/.terrad/config/genesis.json`. Note that the final genesis file is currently being formed. You will be asked to replace the temporary genesis file with the genesis.json file later. 
+3. Download the [genesis template file](https://raw.githubusercontent.com/terra-project/launch/master/params/genesis_template.json) to `~/.terrad/config/genesis.json`. You will be asked to replace the temporary genesis file with the genesis.json file later. 
 
 4. Sign a genesis transaction:
 
@@ -84,11 +84,13 @@ cp ~/.terrad/config/gentx/gentx-<node_id>.json ./gentx/<moniker>.json
 
 ## Timelines
 
-1. ~~**22 April 2019 07:00 PST**: Validators from the Columbus genesis drill must submit their addresses via pull request to [the validator address directory](https://github.com/terra-project/accounts/validators/address.json) to reclaim their drill rewards.~~
+** Columbus-1 has now launched. Please refer to [docs](https://docs.terra.money) to join the network as a validator. 
 
-2. ~~**22 April 2019 09:00 PST**: Terraform Labs will publish its `penultimate_genesis.json` file to be used by validators to assemble genesis transactions.~~ 
+1. **22 April 2019 07:00 PST**: Validators from the Columbus genesis drill must submit their addresses via pull request to [the validator address directory](https://github.com/terra-project/accounts/validators/address.json) to reclaim their drill rewards.
 
-3. ~~**23 April 2019 02:00 PST**: By this time, all genesis validators MUST submit a gentx PR to this repository to be included in the genesis block. We will not be accepting gentxs past this time.~~
+2. **22 April 2019 09:00 PST**: Terraform Labs will publish its `penultimate_genesis.json` file to be used by validators to assemble genesis transactions. 
+
+3. **23 April 2019 02:00 PST**: By this time, all genesis validators MUST submit a gentx PR to this repository to be included in the genesis block. We will not be accepting gentxs past this time.
 
 4. **23 April 2019 05:00 PST**: At this point, Terraform Labs will publish the `genesis.json` file containing the gentx submissions from validators. Validators should replace their `penultimate_genesis.json` file with this file. 
 
