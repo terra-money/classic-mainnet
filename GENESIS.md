@@ -76,7 +76,7 @@ As you can notice, most grant criteria is being run on an ongoing basis. Please 
 
 ::We've also given 0.2 million Luna delegation rewards to late joiners, just to be nice. Happy to have you! 
 
-Without further ado, here are the genesis delegation rewards. All units are in units of million Luna tokens. 
+Without further ado, here are the genesis delegation rewards. **All numbers are in units of million Luna tokens**. 
 
 | Validator          | 1 | 2 | 3 | 4 | 5 | Total | 
 |--------------------|---|---|---|---|---|-------| 
