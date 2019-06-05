@@ -34,8 +34,8 @@ Parameters that have been updated from `Columbus-1` have been highlighted.
 - `"window_short": "4"`, Internal period metric, see `policy.go`
 - `"window_long": "52"`, Internal period metric, see `policy.go`
 - `"window_probation": "12"`, Number of weeks where updates to tx fees and reward weights are barred 
-- `"oracle_share": "0.10"`, ratio of seigniorage rewards that goes to oracle votes (1-mining reward) - oracle_share
-- `"budget_share": "0.9"`, ratio of seigniorage rewards that goes to budget programs (1-mining reward) - budget_share
+- [REMOVED] `"oracle_share": "0.10"`, ratio of seigniorage rewards that goes to oracle votes (1-mining reward) - oracle_share
+- [REMOVED] `"budget_share": "0.9"`, ratio of seigniorage rewards that goes to budget programs (1-mining reward) - budget_share
 
 ### Budget Module
 
@@ -48,7 +48,7 @@ Parameters that have been updated from `Columbus-1` have been highlighted.
 
 - **`"vote_period": "12"`. Number of blocks (approx. 1 minute) for a oracle vote to be tallied.**
 - `"vote_threshold": "0.5"`.  ratio of bonded tokens that have to submit votes before the vote can be tallied
-- `"drop_threshold": "100"`. # of vote cycles that oracle tallies have to be skipped sequentially before the Terra denom is dropped from the oracle
+- [REMOVED] `"drop_threshold": "100"`. # of vote cycles that oracle tallies have to be skipped sequentially before the Terra denom is dropped from the oracle
 - `"oracle_reward_band": "0.01"`. oracle rewardee range. You must submit a vote within the reward band to receive rewards for loyal oracle votes.
 
 ### Slashing Module
