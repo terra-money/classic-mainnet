@@ -3,7 +3,7 @@
 
 This repository contains the configuration parameters for the Columbus Network Genesis. Columbus is the first decentralized network of nodes communicating over [Terra Core](https://github.com/terra-project/core). 
 
-**Columbus-1 has now launched. This repo is kept alive for archival purposes.**
+**[Columbus-2](https://github.com/terra-project/launch/tree/master/columbus-2) has now launched**
 
 ## Important Notes for Validators
 
