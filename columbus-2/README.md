@@ -20,7 +20,7 @@ Parameters that have been updated from `Columbus-1` have been highlighted.
 
 ### Market Module
 
-- **`"daily_luna_delta_limit": ~~"0.005"~~ "0.001"`. We impose a 1% swap cap on Luna inflation for market trades. In practice, this means that the daily inflation of Luna is at most 1%. This prevents a malicious swapper exploiting a broken oracle to vastly inflate luna supply and threaten network consensus.** (UPDATE June 24th 2019) 
+- **`"daily_luna_delta_limit": "0.001"`. We impose a 1% swap cap on Luna inflation for market trades. In practice, this means that the daily inflation of Luna is at most 1%. This prevents a malicious swapper exploiting a broken oracle to vastly inflate luna supply and threaten network consensus.** (UPDATE June 24th 2019) 
 - **`"max_swap_spread": "0.1"`. Maximum spread fee charged on swaps involving luna is 10%.** 
 - **`"min_swap_spread": "0.02"`. Minimum spread fee charged on swaps involving luna is 2%.**
 
@@ -49,7 +49,7 @@ Parameters that have been updated from `Columbus-1` have been highlighted.
 - **`"vote_period": "12"`. Number of blocks (approx. 1 minute) for a oracle vote to be tallied.**
 - `"vote_threshold": "0.5"`.  ratio of bonded tokens that have to submit votes before the vote can be tallied
 - [REMOVED] `"drop_threshold": "100"`. # of vote cycles that oracle tallies have to be skipped sequentially before the Terra denom is dropped from the oracle
-- `"oracle_reward_band": ~~"0.01"~~ "0.02"`. oracle rewardee range. You must submit a vote within the reward band to receive rewards for loyal oracle votes. (UPDATE June 24th 2019) 
+- `"oracle_reward_band": "0.02"`. oracle rewardee range. You must submit a vote within the reward band to receive rewards for loyal oracle votes. (UPDATE June 24th 2019) 
 
 ### Slashing Module
 
