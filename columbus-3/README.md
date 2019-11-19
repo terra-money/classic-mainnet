@@ -22,12 +22,12 @@ Parameters that have been updated from `Columbus-2` have been highlighted.
 ### Oracle Module
 
 - `whitelist: ["ukrw", "usdr", "uusd", "umnt"]`. The list of currencies that can be voted on. This is set to (KRT, SDT, UST, MNT).
-- `reward_distribution_window: "86400"`. The number of vote periods during which oracle reward comes in and then is distributed is 86,400 vote periods (\~= a month).
-- `slash_window: "2880"`. The number of vote periods for slashing tallying is 2,880 vote periods (\~= a day). 
-- `slash_fraction: "0.0001"`. The validators will get 0.01% panelty on bonded tokens for oracle voting violation.
+- `reward_distribution_window: "5256000"`. The number of blocks during which oracle reward comes in and then is distributed is 5,256,000 blocks (\~= a year).
+- `slash_window: "100800"`. The number of blocks for slashing tallying is 100,800 blocks (\~= a week). 
+- `slash_fraction: "0.01"`. The validators will get 1% panelty on bonded tokens for oracle voting violation.
 - `min_valid_per_window: "0.05"`. The validators should submit 5% valid votes per slash window to avoid slashing.
 
 
 ### Treasury Module
 
-- `"tax_policy.rate_mint": 0.001`. Minimum tax rate is increased to 0.1%.
+- `"tax_policy.rate_min": 0.01`. Minimum tax rate is increased to 1%.
