@@ -23,7 +23,7 @@ Parameters that have been updated from `Columbus-2` have been highlighted.
 
 - `whitelist: ["ukrw", "usdr", "uusd", "umnt"]`. The list of currencies that can be voted on. This is set to (KRT, SDT, UST, MNT).
 - `reward_distribution_window: "5256000"`. The number of blocks during which oracle reward comes in and then is distributed is 5,256,000 blocks (\~= a year).
-- `slash_window: "100800"`. The number of blocks for slashing tallying is 100,800 blocks (\~= a week). 
+- `slash_window: "432000"`. The number of blocks for slashing tallying is 432,000 blocks (\~= a month). 
 - `slash_fraction: "0.01"`. The validators will get 1% panelty on bonded tokens for oracle voting violation.
 - `min_valid_per_window: "0.05"`. The validators should submit 5% valid votes per slash window to avoid slashing.
 
