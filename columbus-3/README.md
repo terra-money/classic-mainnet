@@ -30,4 +30,4 @@ Parameters that have been updated from `Columbus-2` have been highlighted.
 
 ### Treasury Module
 
-- `"tax_policy.rate_min": 0.01`. Minimum tax rate is increased to 1%.
+- `"tax_policy.rate_min": 0.001`. Minimum tax rate is increased to 0.1%.
