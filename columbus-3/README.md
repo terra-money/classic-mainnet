@@ -21,6 +21,7 @@ Parameters that have been updated from `Columbus-2` have been highlighted.
 
 ### Oracle Module
 
+- `reward_band: "0.07"`. Increase the criteria for receiving rewards and avoiding penalties to 7%, allowing validators to adapt to the initial improved penalty system.
 - `whitelist: ["ukrw", "usdr", "uusd", "umnt"]`. The list of currencies that can be voted on. This is set to (KRT, SDT, UST, MNT).
 - `reward_distribution_window: "5256000"`. The number of blocks during which oracle reward comes in and then is distributed is 5,256,000 blocks (\~= a year).
 - `slash_window: "432000"`. The number of blocks for slashing tallying is 432,000 blocks (\~= a month). 
