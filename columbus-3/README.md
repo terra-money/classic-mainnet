@@ -2,6 +2,9 @@
 
 Parameters that have been updated from `Columbus-2` have been highlighted.
 
+### Slashing Module
+
+- `"slash_fraction_double_sign": "0.05"`. Increase slashing fraction for the Validators who equivocate (double-sign a block, and thereby compromise safety) and are caught to 5%.
 
 ### Goverance Module
 
@@ -14,21 +17,24 @@ Parameters that have been updated from `Columbus-2` have been highlighted.
 
 ### Market Module
 
-- `base_pool: "250000000000"`. Initial starting size of both Terra and Luna liquidity pools is 250,000 SDT.
-- `pool_recovery_period: 14400"`. The duration in which the Terra & Luna pools to naturally "reset" toward equilibrium (delta \~= 0) through automated pool replenishing is 14400 blocks (\~= a day).
-- `min_spread": "0.02"`. Minimum spread charged on Terra<>Luna swaps is 2%. This is to prevent leaking value from front-running attacks.
+- `"base_pool": "250000000000"`. Initial starting size of both Terra and Luna liquidity pools is 250,000 SDT.
+- `"pool_recovery_period": 14400"`. The duration in which the Terra & Luna pools to naturally "reset" toward equilibrium (delta \~= 0) through automated pool replenishing is 14400 blocks (\~= a day).
+- `"min_spread": "0.02"`. Minimum spread charged on Terra<>Luna swaps is 2%. This is to prevent leaking value from front-running attacks.
 - `"tobin_tax": 0.0025`. A fee of 0.25% of swap amount is charged on swap between Terra currencies (spot-trading).
 
 ### Oracle Module
 
-- `reward_band: "0.07"`. Increase the criteria for receiving rewards and avoiding penalties to 7%, allowing validators to adapt to the initial improved penalty system.
-- `whitelist: ["ukrw", "usdr", "uusd", "umnt"]`. The list of currencies that can be voted on. This is set to (KRT, SDT, UST, MNT).
-- `reward_distribution_window: "5256000"`. The number of blocks during which oracle reward comes in and then is distributed is 5,256,000 blocks (\~= a year).
-- `slash_window: "432000"`. The number of blocks for slashing tallying is 432,000 blocks (\~= a month). 
-- `slash_fraction: "0.01"`. The validators will get 1% panelty on bonded tokens for oracle voting violation.
-- `min_valid_per_window: "0.05"`. The validators should submit 5% valid votes per slash window to avoid slashing.
+- `"vote_period": "5"`. Shorten the oracle tally period to 5 blocks.
+- `"reward_band": "0.07"`. Increase the criteria for receiving rewards and avoiding penalties to 7%, allowing validators to adapt to the initial improved penalty system.
+- `"whitelist": ["ukrw", "usdr", "uusd", "umnt"]`. The list of currencies that can be voted on. This is set to (KRT, SDT, UST, MNT).
+- `"reward_distribution_window": "5256000"`. The number of blocks during which oracle reward comes in and then is distributed is 5,256,000 blocks (\~= a year).
+- `"slash_window": "432000"`. The number of blocks for slashing tallying is 432,000 blocks (\~= a month). 
+- `"slash_fraction": "0.01"`. The validators will get 1% panelty on bonded tokens for oracle voting violation.
+- `"min_valid_per_window": "0.05"`. The validators should submit 5% valid votes per slash window to avoid slashing.
 
 
 ### Treasury Module
 
 - `"tax_policy.rate_min": 0.001`. Minimum tax rate is increased to 0.1%.
+- `"reward_policy.rate_max": 0.5`. Maximum reward weight is decreased to 50%.
+- `"window_probation": "0"`. No mature period will be required for columbus-3.
