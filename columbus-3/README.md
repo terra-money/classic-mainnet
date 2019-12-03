@@ -21,6 +21,7 @@ Parameters that have been updated from `Columbus-2` have been highlighted.
 - `"pool_recovery_period": 14400"`. The duration in which the Terra & Luna pools to naturally "reset" toward equilibrium (delta \~= 0) through automated pool replenishing is 14400 blocks (\~= a day).
 - `"min_spread": "0.02"`. Minimum spread charged on Terra<>Luna swaps is 2%. This is to prevent leaking value from front-running attacks.
 - `"tobin_tax": 0.0025`. A fee of 0.25% of swap amount is charged on swap between Terra currencies (spot-trading).
+- `"illiquid_tobin_tax_list": [{'denom':'umnt','tax_rate':'0.02'}]`. Charge high tobin tax (2%) to the illquid denom (`umnt`).
 
 ### Oracle Module
 
