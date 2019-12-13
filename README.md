@@ -3,14 +3,11 @@
 
 This repository contains the configuration parameters for the Columbus Network Genesis. Columbus is the first decentralized network of nodes communicating over [Terra Core](https://github.com/terra-project/core). 
 
+## [Columbus-3](https://github.com/terra-project/launch/tree/master/columbus-3) 
+- New Genesis: https://columbus-genesis.s3-ap-northeast-1.amazonaws.com/genesis.json
+
 **[Columbus-2](https://github.com/terra-project/launch/tree/master/columbus-2) has now launched**
 
-## [Columbus-3](https://github.com/terra-project/launch/tree/master/columbus-3) launch schedule
-- Target Halt Height: 2,530,000
-- Estimated Halt Time: 
-  - Sat Dec 13 2019 15:56:57 GMT+0000 (UTC)
-  - Sat Dec 14 2019 00:56:57 GMT+0900 (KST)
-- Genesis Time: 60 minutes after BlockTime of 2,530,000 
 
 ## Important Notes for Validators
 
