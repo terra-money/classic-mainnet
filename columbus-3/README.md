@@ -1,3 +1,6 @@
+## Genesis
+Downlaod the columbus-3 genesis [Here](https://columbus-genesis.s3-ap-northeast-1.amazonaws.com/genesis.json)
+
 ## Genesis Parameters
 
 Parameters that have been updated from `Columbus-2` have been highlighted.
