@@ -3,21 +3,9 @@
 
 This repository contains the configuration parameters for the Columbus Network Genesis. Columbus is the first decentralized network of nodes communicating over [Terra Core](https://github.com/terra-project/core). 
 
-## [Columbus-3](https://github.com/terra-project/launch/tree/master/columbus-3) 
-- New Genesis: https://columbus-genesis.s3-ap-northeast-1.amazonaws.com/genesis.json
+To get a backgrounder on the network genesis, please refer [here](https://github.com/terra-project/launch/blob/master/GENESIS.md).
 
-**[Columbus-2](https://github.com/terra-project/launch/tree/master/columbus-2) has now launched**
-
-
-## Important Notes for Validators
-
-1. **For genesis Validators**: Please follow [these instructions](INSTRUCTIONS.md) to prepare for genesis, claim rewards from the drill, and get ready for genesis. 
-
-2. **To stay updated for the genesis**: Please monitor the validator chat on Discord in real time to stay coordinated with Terraform Labs and the rest of the community regarding the launch. 
-
-## Genesis Background
-
-Terra is a project that is made possible thanks to the collective effort of its global community. Those of you interested in finding out the background of its genesis please see [here](./GENESIS.md) and our [blog](https://medium.com/terra-money). Final parameter settings for Columbus can be found [here](./params/README.md). 
+**[Columbus-3](https://github.com/terra-project/launch/tree/master/columbus-3) has now launched**
 
 ## Terra community 
 
@@ -28,17 +16,9 @@ Community channels actively being moderated are here:
 - [Twitter](https://twitter.com/terra_money)
 - [YouTube](https://goo.gl/3G4T1z)
 
-We will be making announcements regarding the launch using these channels, so please stay tuned. 
+We will be making announcements regarding network upgrades using these channels, so please stay tuned. 
 
-## Reference files
-
-### Genesis files
- 
-- `penultimate_genesis.json`: The near-final genesis file, minus the gentx data validators must create and submit with this as the reference. 
-- `/gentx`: Genesis transactions to create validators, submitted by each validator. 
-- `/genesis.json`: The final genesis file that is be used to launch columbus.
-
-### Seed Nodes
+## Seed Nodes & peers
 
 We request known community members who wish to run public p2p seed nodes make pull requests to add community run seed nodes below.
 
