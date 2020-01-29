@@ -29,7 +29,7 @@ Known seed node list:
 b416f0b04e2c71b8d76f993468352030e2dcf2a9@public-seed-node.columbus.certus.one:26656  // certus
 87048bf71526fb92d73733ba3ddb79b7a83ca11e@public-seed.terra.dev:26656  // terraform labs
 b5205baf1d52b6f91afb0da7d7b33dcebc71755f@public-seed2.terra.dev:26656 // terraform labs
-535222fdb795df6653934f22b8e5f16fdfacc9f6@seed.terra.de-light.io:26656 // de-light.io
+5fa582d7c9931e5be8c02069d7b7b243c79d25bf@seed.terra.de-light.io:26656 // DE-LIGHT
 bae08cc880c20aeda68a5a890a71a9b44ac73cb4@terra-seed-eu.chorus.one:28657 // chorusone eu
 925ecc3de9e2ac65a203beb2333ced1a00c135ed@terra-seed-us.chorus.one:28657 // chorusone us
 ```
