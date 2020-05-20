@@ -18,30 +18,27 @@ Community channels actively being moderated are here:
 
 We will be making announcements regarding network upgrades using these channels, so please stay tuned. 
 
-## Seed Nodes & peers
+## Seed Nodes
 
 We request known community members who wish to run public p2p seed nodes make pull requests to add community run seed nodes below.
 
 ```
 Known seed node list: 
-447ba60df6fdc2466e1ab4c328e100d6bc5765f8@seed-only.terra-columbus-3.bas.network:26656 // BasBlock
+US Region:
 6be0856f6365559fdc2e9e97a07d609f754632b0@terra-columbus-3-seed.nodes.polychainlabs.com:26656  // Polychain
-b416f0b04e2c71b8d76f993468352030e2dcf2a9@public-seed-node.columbus.certus.one:26656  // certus
-87048bf71526fb92d73733ba3ddb79b7a83ca11e@public-seed.terra.dev:26656  // terraform labs
-b5205baf1d52b6f91afb0da7d7b33dcebc71755f@public-seed2.terra.dev:26656 // terraform labs
-5fa582d7c9931e5be8c02069d7b7b243c79d25bf@seed.terra.de-light.io:26656 // DE-LIGHT
-bae08cc880c20aeda68a5a890a71a9b44ac73cb4@terra-seed-eu.chorus.one:28657 // chorusone eu
-925ecc3de9e2ac65a203beb2333ced1a00c135ed@terra-seed-us.chorus.one:28657 // chorusone us
-```
+925ecc3de9e2ac65a203beb2333ced1a00c135ed@terra-seed-us.chorus.one:28657 // Chorus One (US)
 
-```
-Known peers:  
-e6325ba7c490ba371135c9f3fcead66da1bd8cf1@terra-sentry01.dokia.cloud:26656
-dba5defd7b120937da37aea7f37d06870637558d@terra-sentry02.dokia.cloud:26656
-eb4ce12133c450ba6665e06309570ea2843e21d8@167.86.104.33:26656
-7277be5ce17d60cf26c92a7cafbb9fc7da7f2be5@51.38.103.128:26656 // Castlenode
-1cb3e13efe7ca25fb68249169a15e85e53c3b3e9@terra-main.peer.nodeateam.kr:26656 // Node A-Team
-46bc5183ef3b6ea9ffa84df16d6a5aa4a642427a@node.terra.forbole.com:26656 // Forbole
+Asia Region:
+87048bf71526fb92d73733ba3ddb79b7a83ca11e@public-seed.terra.dev:26656  // Terraform Labs
+b5205baf1d52b6f91afb0da7d7b33dcebc71755f@public-seed2.terra.dev:26656 // Terraform Labs
+5fa582d7c9931e5be8c02069d7b7b243c79d25bf@seed.terra.de-light.io:26656 // DE-LIGHT
+
+Europe Region:
+bae08cc880c20aeda68a5a890a71a9b44ac73cb4@terra-seed-eu.chorus.one:28657 // Chorus One (EU)
+
+Not reachable at the moment:
+// 447ba60df6fdc2466e1ab4c328e100d6bc5765f8@seed-only.terra-columbus-3.bas.network:26656 // BasBlock
+// b416f0b04e2c71b8d76f993468352030e2dcf2a9@public-seed-node.columbus.certus.one:26656  // certus
 ```
 
 ## Disclaimer
