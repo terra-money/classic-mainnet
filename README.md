@@ -41,6 +41,11 @@ Not reachable at the moment:
 // b416f0b04e2c71b8d76f993468352030e2dcf2a9@public-seed-node.columbus.certus.one:26656  // certus
 ```
 
+You can also download nightly address book by
+```bash
+curl https://network.terra.dev/addrbook.json > ~/.terrad/config/addrbook.json
+```
+
 ## Disclaimer
 
 The foundational software for the Columbus mainnet, Terra Core, is *highly* experimental software. In these early days, we can expect to have issues, updates, and bugs. The existing tools require advanced technical skills and involve risks which are outside of the control of Terraform Labs or its developers. Any use of this open source Apache 2.0 licensed software is done at your *own risk and on a “AS IS” basis, without warranties or conditions of any kind*. **Please exercise extreme caution!**
