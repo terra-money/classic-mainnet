@@ -1,5 +1,5 @@
 ## Genesis
-Downlaod the columbus-3 genesis [Here](https://columbus-genesis.s3-ap-northeast-1.amazonaws.com/genesis.json)
+Download the columbus-3 genesis [Here](https://columbus-genesis.s3-ap-northeast-1.amazonaws.com/genesis.json)
 
 ## Genesis Parameters
 
