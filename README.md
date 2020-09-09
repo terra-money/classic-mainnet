@@ -18,6 +18,9 @@ Community channels actively being moderated are here:
 
 We will be making announcements regarding network upgrades using these channels, so please stay tuned. 
 
+## Genesis
+Download the columbus-3 genesis [Here](https://columbus-genesis.s3-ap-northeast-1.amazonaws.com/genesis.json)
+
 ## Seed Nodes
 
 We request known community members who wish to run public p2p seed nodes make pull requests to add community run seed nodes below.
