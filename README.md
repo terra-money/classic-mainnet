@@ -22,7 +22,7 @@ We will be making announcements regarding network upgrades using these channels,
 
 ## Genesis
 
-The genesis file for Columbus-4 is available [here](https://columbus-genesis.s3-ap-northeast-1.amazonaws.com/genesis.json)
+The genesis file for Columbus-4 is available [here](https://columbus-genesis.s3-ap-northeast-1.amazonaws.com/columbus-4-genesis.json)
 
 ## Seed Nodes
 
