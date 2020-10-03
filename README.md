@@ -6,7 +6,7 @@ This repository contains the configuration parameters for Columbus, Terra's offi
 
 To get a backgrounder on the network genesis, please refer [here](https://github.com/terra-project/launch/blob/master/GENESIS.md).
 
-**[Columbus-4](https://github.com/terra-project/launch/tree/master/columbus-3) is the latest iteration of mainnet**.
+**[Columbus-4](https://github.com/terra-project/launch/tree/master/columbus-4) is the latest iteration of mainnet**.
 
 ## Terra community
 
