@@ -3,4 +3,4 @@ Link to [Columbus 4 Upgrade Instructions](
 https://github.com/terra-project/mainnet/wiki/Columbus-4-Upgrade-Instructions)
 
 ## Genesis
-To be updated
+https://columbus-genesis.s3-ap-northeast-1.amazonaws.com/columbus-4-genesis.json
