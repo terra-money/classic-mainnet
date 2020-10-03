@@ -34,7 +34,7 @@ US Region:
 Asia Region:
 87048bf71526fb92d73733ba3ddb79b7a83ca11e@public-seed.terra.dev:26656  // Terraform Labs
 b5205baf1d52b6f91afb0da7d7b33dcebc71755f@public-seed2.terra.dev:26656 // Terraform Labs
-5fa582d7c9931e5be8c02069d7b7b243c79d25bf@seed.terra.de-light.io:26656 // DE-LIGHT
+5d9b8ac70000bd4ab1de3ccaf85eb43f8e315146@seed.terra.delightlabs.io:26656 // DELIGHT LABS
 
 Europe Region:
 bae08cc880c20aeda68a5a890a71a9b44ac73cb4@terra-seed-eu.chorus.one:28657 // Chorus One (EU)
