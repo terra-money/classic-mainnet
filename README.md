@@ -1,32 +1,35 @@
 # Terra Core & Columbus Launch
+
 ![banner](launch-banner.png)
 
-This repository contains the configuration parameters for the Columbus Network Genesis. Columbus is the first decentralized network of nodes communicating over [Terra Core](https://github.com/terra-project/core). 
+This repository contains the configuration parameters for Columbus, Terra's official mainnet. Columbus is the first decentralized network of nodes communicating over [Terra Core](https://github.com/terra-project/core).
 
 To get a backgrounder on the network genesis, please refer [here](https://github.com/terra-project/launch/blob/master/GENESIS.md).
 
-**[Columbus-3](https://github.com/terra-project/launch/tree/master/columbus-3) has now launched**
+**[Columbus-4](https://github.com/terra-project/launch/tree/master/columbus-3) is the latest iteration of mainnet**.
 
-## Terra community 
+## Terra community
 
 Community channels actively being moderated are here:
+
 - [Website](https://terra.money/)
 - [Discord](https://discord.gg/bYfyhUT)
 - [Telegram](https://t.me/terra_announcements)
 - [Twitter](https://twitter.com/terra_money)
 - [YouTube](https://goo.gl/3G4T1z)
 
-We will be making announcements regarding network upgrades using these channels, so please stay tuned. 
+We will be making announcements regarding network upgrades using these channels, so please stay tuned.
 
 ## Genesis
-Download the columbus-3 genesis [Here](https://columbus-genesis.s3-ap-northeast-1.amazonaws.com/genesis.json)
+
+The genesis file for Columbus-4 is available [here](https://columbus-genesis.s3-ap-northeast-1.amazonaws.com/genesis.json)
 
 ## Seed Nodes
 
 We request known community members who wish to run public p2p seed nodes make pull requests to add community run seed nodes below.
 
 ```
-Known seed node list: 
+Known seed node list:
 US Region:
 6be0856f6365559fdc2e9e97a07d609f754632b0@terra-columbus-3-seed.nodes.polychainlabs.com:26656  // Polychain
 925ecc3de9e2ac65a203beb2333ced1a00c135ed@terra-seed-us.chorus.one:28657 // Chorus One (US)
@@ -45,13 +48,11 @@ Not reachable at the moment:
 ```
 
 You can also download nightly address book by
+
 ```bash
 curl https://network.terra.dev/addrbook.json > ~/.terrad/config/addrbook.json
 ```
 
 ## Disclaimer
 
-The foundational software for the Columbus mainnet, Terra Core, is *highly* experimental software. In these early days, we can expect to have issues, updates, and bugs. The existing tools require advanced technical skills and involve risks which are outside of the control of Terraform Labs or its developers. Any use of this open source Apache 2.0 licensed software is done at your *own risk and on a “AS IS” basis, without warranties or conditions of any kind*. **Please exercise extreme caution!**
-
-
-
+The foundational software for the Columbus mainnet, Terra Core, is *highly* experimental software. In these early days, we can expect to have issues, updates, and bugs. The existing tools require advanced technical skills and involve risks which are outside of the control of Terraform Labs or its developers. Any use of this open source Apache 2.0 licensed software is done at your _own risk and on a “AS IS” basis, without warranties or conditions of any kind_. **Please exercise extreme caution!**
