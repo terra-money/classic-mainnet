@@ -10,7 +10,7 @@ This document outlines the genesis parameters (including genesis luna allocation
 
 ## Project History
 
-Terra Money was created in January 2018 with the singular vision of facilitating the mass adoption of cryptocurrencies by creating digitially native assets that are price-stable against the world's major fiat currencies. Keeping in mind that previous innovations in the technology of money was bootstrapped by large payment networks (Alipay with Taobao, Paypal with eBay, Visa with banks), Terra was born with the support of the Terra Alliance, 15 large e-commerce companies in Asia that collectively process 25 billion USD in annualized transaction volume and 45 million users. The vision of the project is that with the adoption and user engagement of a massive payment network, we will be able to, for the first time, bootstrap a blockchain payment network to the scale it deserves. 
+Terra Money was created in January 2018 with the singular vision of facilitating the mass adoption of cryptocurrencies by creating digitially native assets that are price-stable against the world's major fiat currencies. Keeping in mind that previous innovations in the technology of money were bootstrapped by large payment networks (Alipay with Taobao, Paypal with eBay, Visa with banks), Terra was born with the support of the Terra Alliance, 15 large e-commerce companies in Asia that collectively process 25 billion USD in annualized transaction volume and 45 million users. The vision of the project is that with the adoption and user engagement of a massive payment network, we will be able to, for the first time, bootstrap a blockchain payment network to the scale it deserves. 
  
 
 ##  Token Allocation and Fundraiser
