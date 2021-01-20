@@ -30,21 +30,9 @@ We request known community members who wish to run public p2p seed nodes make pu
 
 ```
 Known seed node list:
-US Region:
-6be0856f6365559fdc2e9e97a07d609f754632b0@terra-columbus-3-seed.nodes.polychainlabs.com:26656  // Polychain
-925ecc3de9e2ac65a203beb2333ced1a00c135ed@terra-seed-us.chorus.one:28657 // Chorus One (US)
-
-Asia Region:
-87048bf71526fb92d73733ba3ddb79b7a83ca11e@public-seed.terra.dev:26656  // Terraform Labs
-b5205baf1d52b6f91afb0da7d7b33dcebc71755f@public-seed2.terra.dev:26656 // Terraform Labs
-5d9b8ac70000bd4ab1de3ccaf85eb43f8e315146@seed.terra.delightlabs.io:26656 // DELIGHT LABS
-
-Europe Region:
-bae08cc880c20aeda68a5a890a71a9b44ac73cb4@terra-seed-eu.chorus.one:28657 // Chorus One (EU)
-
-Not reachable at the moment:
-// 447ba60df6fdc2466e1ab4c328e100d6bc5765f8@seed-only.terra-columbus-3.bas.network:26656 // BasBlock
-// b416f0b04e2c71b8d76f993468352030e2dcf2a9@public-seed-node.columbus.certus.one:26656  // certus
+5d9b8ac70000bd4ab1de3ccaf85eb43f8e315146@seed.terra.delightlabs.io:26656
+6d8e943c049a80c161a889cb5fcf3d184215023e@public-seed2.terra.dev:26656
+87048bf71526fb92d73733ba3ddb79b7a83ca11e@public-seed.terra.dev:26656
 ```
 
 You can also download nightly address book by
