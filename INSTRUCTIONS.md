@@ -10,7 +10,7 @@ Generally the steps to create a validator are as follows:
 
 2. [Setup your genesis keys](https://docs.terra.money/guide/users)
 
-3. Download the [genesis template file](https://raw.githubusercontent.com/terra-project/launch/master/params/genesis_template.json) to `~/.terrad/config/genesis.json`. You will be asked to replace the temporary genesis file with the genesis.json file later. 
+3. Download the [genesis template file](https://raw.githubusercontent.com/terra-money/launch/master/params/genesis_template.json) to `~/.terrad/config/genesis.json`. You will be asked to replace the temporary genesis file with the genesis.json file later. 
 
 4. Sign a genesis transaction:
 
@@ -86,7 +86,7 @@ cp ~/.terrad/config/gentx/gentx-<node_id>.json ./gentx/<moniker>.json
 
 ** Columbus-1 has now launched. Please refer to [docs](https://docs.terra.money) to join the network as a validator. 
 
-1. **22 April 2019 07:00 PST**: Validators from the Columbus genesis drill must submit their addresses via pull request to [the validator address directory](https://github.com/terra-project/accounts/validators/address.json) to reclaim their drill rewards.
+1. **22 April 2019 07:00 PST**: Validators from the Columbus genesis drill must submit their addresses via pull request to [the validator address directory](https://github.com/terra-money/accounts/validators/address.json) to reclaim their drill rewards.
 
 2. **22 April 2019 09:00 PST**: Terraform Labs will publish its `penultimate_genesis.json` file to be used by validators to assemble genesis transactions. 
 
@@ -101,7 +101,7 @@ cp ~/.terrad/config/gentx/gentx-<node_id>.json ./gentx/<moniker>.json
 
 ## Important Notices
 
-1. The atomic units on Terra Core has been switched from m-asset (for example, `mluna`) to u-asset (for example, `uluna`) to be consistent with SI unit conventions. https://github.com/terra-project/core/pull/113 Make sure you are using the right nomenclature for fees and transactions. 
+1. The atomic units on Terra Core has been switched from m-asset (for example, `mluna`) to u-asset (for example, `uluna`) to be consistent with SI unit conventions. https://github.com/terra-money/core/pull/113 Make sure you are using the right nomenclature for fees and transactions. 
 
 2. You must re-install `terrad` and `terracli`, as the software that is being used has changed from the drill. The software version that is being used has changed from `v0.1.0rc0` to `v0.1.1`. 
 

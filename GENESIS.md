@@ -48,7 +48,7 @@ The results from the drill are [here](drill_results.json). We had a very high le
 - **Chorus-one** (#5)
 
 Outside of the winning list, we recognize the following validators: 
-- **Dokia Capital**: managed to find a [bug](https://github.com/terra-project/core/pull/112) while minting a non-whitelisted currency.
+- **Dokia Capital**: managed to find a [bug](https://github.com/terra-money/core/pull/112) while minting a non-whitelisted currency.
 - **B-Harvest**: actively educated other validators during the course of the drill, and showed the highest level of understanding / activity.
 - **Certus One**: Helped to design and run the drill, as well as the setup of our own validators. 
 
@@ -122,5 +122,5 @@ Without further ado, here are the genesis delegation rewards. **All numbers are 
 
 A few weeks after network launch, Columbus will [power payment services](http://fortune.com/2018/08/29/cryptocurrency-exchanges-back-32-million-stable-coin-project/) across the Terra Alliance. It will also be used by a federation including the Mongolian government to [pay for taxes and utilities in the country](https://www.forbes.com/sites/yoavvilner/2019/01/11/mongolia-starts-off-2019-with-its-eyes-on-crypto-payment-adoption/?fbclid=IwAR0GqylqQev_7JhnEGdi7lJwDgfaMZRMODqVXZbos30z1eqqlLO1lSJ9_Nk). 
 
-Though the protocol has been robustly been tested over the course of several [testnets](https://github.com/terra-project/networks) and [simulations](https://github.com/terra-project/research), having millions of real users interact with the system across a diverse range of use cases may break or test our assumptions. The Terra community may be obliged to update the Terra Core software to better accomodate the needs of its users.
+Though the protocol has been robustly been tested over the course of several [testnets](https://github.com/terra-money/networks) and [simulations](https://github.com/terra-money/research), having millions of real users interact with the system across a diverse range of use cases may break or test our assumptions. The Terra community may be obliged to update the Terra Core software to better accomodate the needs of its users.
 
