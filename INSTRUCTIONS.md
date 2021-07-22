@@ -110,7 +110,7 @@ cp ~/.terrad/config/gentx/gentx-<node_id>.json ./gentx/<moniker>.json
 
 ## Asks
 
-The strength of the Terra ecosystem ultimately depends on the enthusiasm and engagement of its community. If you have bandwidth & technical capability to deploy tutorials, ecosystem tools and offer dev work for the Columbus network, we ask that you do so. We will be offering additional delegation rewards to validators that actively add value to the community. 
+The strength of the Terra ecosystem ultimately depends on the enthusiasm and engagement of its community. If you have bandwidth & technical capability to deploy tutorials, ecosystem tools, and offer dev work for the Columbus network, we ask that you do so. We will be offering additional delegation rewards to validators that actively add value to the community. 
 
 
 ## A Note about your Validator Signing Key
