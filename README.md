@@ -30,7 +30,7 @@ We request known community members who wish to run public p2p seed nodes make pu
 
 ```
 Known seed node list:
-5d9b8ac70000bd4ab1de3ccaf85eb43f8e315146@seed.terra.delightlabs.io:26656
+e999fc20aa5b87c1acef8677cf495ad85061cfb9@seed.terra.delightlabs.io:26656
 6d8e943c049a80c161a889cb5fcf3d184215023e@public-seed2.terra.dev:26656
 87048bf71526fb92d73733ba3ddb79b7a83ca11e@public-seed.terra.dev:26656
 ```
