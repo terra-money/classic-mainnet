@@ -6,7 +6,7 @@ This repository contains the configuration parameters for Columbus, Terra's offi
 
 To get a backgrounder on the network genesis, please refer [here](https://github.com/terra-money/mainnet/blob/master/GENESIS.md).
 
-**[Columbus-4](https://github.com/terra-money/mainnet/tree/master/columbus-4) is the latest iteration of mainnet**.
+**[Columbus-5](https://github.com/terra-money/mainnet/tree/master/columbus-5) is the latest iteration of mainnet**.
 
 ## Terra community
 
@@ -22,7 +22,7 @@ We will be making announcements regarding network upgrades using these channels,
 
 ## Genesis
 
-The genesis file for Columbus-4 is available [here](https://columbus-genesis.s3-ap-northeast-1.amazonaws.com/columbus-4-genesis.json)
+The genesis file for Columbus-5 is available [here](https://columbus-genesis.s3-ap-northeast-1.amazonaws.com/columbus-5-genesis.json)
 
 ## Seed Nodes
 
