@@ -26,13 +26,18 @@ The genesis file for Columbus-5 is available [here](https://columbus-genesis.s3.
 
 ## Seed Nodes
 
-We request known community members who wish to run public p2p seed nodes make pull requests to add community run seed nodes below.
+We request known community members who wish to run public p2p seed nodes make pull requests to add community run seed and peer nodes below.
 
 ```
 Known seed node list:
 e999fc20aa5b87c1acef8677cf495ad85061cfb9@seed.terra.delightlabs.io:26656
 6d8e943c049a80c161a889cb5fcf3d184215023e@public-seed2.terra.dev:26656
 87048bf71526fb92d73733ba3ddb79b7a83ca11e@public-seed.terra.dev:26656
+```
+
+```
+Known peer list:
+3ddf51347ba7c2bc4a8e1e26ee9d1cbf81034516@162.55.244.250:27656
 ```
 
 You can also download nightly address book by
