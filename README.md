@@ -107,7 +107,7 @@ Known peer list:
 You can also download nightly address book by
 
 ```bash
-curl https://network.terra.dev/addrbook.json > ~/.terrad/config/addrbook.json
+curl https://network.terra.dev/addrbook.json > ~/.terra/config/addrbook.json
 ```
 
 ## Disclaimer
