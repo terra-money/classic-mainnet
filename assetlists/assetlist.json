@@ -1,0 +1,380 @@
+[
+  {
+    "chain_id": "columbus-5",
+    "chain_name": "Terra",
+    "assets": [
+      {
+        "description": "The native token of Osmosis.",
+        "denom_units": [
+          {
+            "denom": "ibc/0471F1C4E7AFD3F07702BEF6DC365268D64570F7C1FDC98EA6098DD6DE59817B",
+            "exponent": 0,
+            "aliases": [
+              "uosmo"
+            ]
+          },
+          {
+            "denom": "osmo",
+            "exponent": 6
+          }
+        ],
+        "base": "ibc/0471F1C4E7AFD3F07702BEF6DC365268D64570F7C1FDC98EA6098DD6DE59817B",
+        "name": "Osmosis",
+        "display": "osmo",
+        "symbol": "OSMO",
+        "ibc": {
+          "source_channel": "channel-72",
+          "dst_channel": "channel-1",
+          "source_denom": "uosmo"
+        },
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/osmo.png",
+          "svg": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/osmo.svg"
+        },
+        "coingecko_id": "osmosis"
+      },
+      {
+        "description": "The native staking and governance token of the Cosmos Hub.",
+        "denom_units": [
+          {
+            "denom": "ibc/9117A26BA81E29FA4F78F57DC2BD90CD3D26848101BA880445F119B22A1E254E",
+            "exponent": 0,
+            "aliases": [
+              "uatom"
+            ]
+          },
+          {
+            "denom": "atom",
+            "exponent": 6
+          }
+        ],
+        "base": "ibc/9117A26BA81E29FA4F78F57DC2BD90CD3D26848101BA880445F119B22A1E254E",
+        "name": "Cosmos",
+        "display": "atom",
+        "symbol": "ATOM",
+        "ibc": {
+          "source_channel": "channel-219",
+          "dst_channel": "channel-2",
+          "source_denom": "uatom"
+        },
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/atom.png",
+          "svg": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/atom.svg"
+        },
+        "coingecko_id": "cosmos"
+      },
+      {
+        "description": "The native token of Secret Network.",
+        "denom_units": [
+          {
+            "denom": "ibc/EB2CED20AB0466F18BE49285E56B31306D4C60438A022EA995BA65D5E3CF7E09",
+            "exponent": 0,
+            "aliases": [
+              "uscrt"
+            ]
+          },
+          {
+            "denom": "scrt",
+            "exponent": 6
+          }
+        ],
+        "base": "ibc/EB2CED20AB0466F18BE49285E56B31306D4C60438A022EA995BA65D5E3CF7E09",
+        "name": "Secret Network",
+        "display": "scrt",
+        "symbol": "SCRT",
+        "ibc": {
+          "source_channel": "channel-2",
+          "dst_channel": "channel-16",
+          "source_denom": "uscrt"
+        },
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/scrt.png",
+          "svg": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/scrt.svg"
+        },
+        "coingecko_id": "secret"
+      }
+    ]
+  },
+  {
+    "chain_id": "osmosis-1",
+    "chain_name": "Osmosis",
+    "assets": [
+      {
+        "description": "The native staking token of Terra.",
+        "denom_units": [
+          {
+            "denom": "ibc/0EF15DF2F02480ADE0BB6E85D9EBB5DAEA2836D3860E9F97F9AADE4F57A31AA0",
+            "exponent": 0,
+            "aliases": [
+              "uluna"
+            ]
+          },
+          {
+            "denom": "luna",
+            "exponent": 6
+          }
+        ],
+        "base": "ibc/0EF15DF2F02480ADE0BB6E85D9EBB5DAEA2836D3860E9F97F9AADE4F57A31AA0",
+        "name": "Luna",
+        "display": "luna",
+        "symbol": "LUNA",
+        "ibc": {
+          "source_channel": "channel-1",
+          "dst_channel": "channel-72",
+          "source_denom": "uluna"
+        },
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/luna.png",
+          "svg": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/luna.svg"
+        },
+        "coingecko_id": "terra-luna"
+      },
+      {
+        "description": "The USD stablecoin of Terra.",
+        "denom_units": [
+          {
+            "denom": "ibc/BE1BB42D4BE3C30D50B68D7C41DB4DFCE9678E8EF8C539F6E6A9345048894FCC",
+            "exponent": 0,
+            "aliases": [
+              "uust"
+            ]
+          },
+          {
+            "denom": "ust",
+            "exponent": 6
+          }
+        ],
+        "base": "ibc/BE1BB42D4BE3C30D50B68D7C41DB4DFCE9678E8EF8C539F6E6A9345048894FCC",
+        "name": "TerraUSD",
+        "display": "ust",
+        "symbol": "UST",
+        "ibc": {
+          "source_channel": "channel-1",
+          "dst_channel": "channel-72",
+          "source_denom": "uusd"
+        },
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/ust.png"
+        },
+        "coingecko_id": "terrausd"
+      },
+      {
+        "description": "The KRW stablecoin of Terra.",
+        "denom_units": [
+          {
+            "denom": "ibc/204A582244FC241613DBB50B04D1D454116C58C4AF7866C186AA0D6EEAD42780",
+            "exponent": 0,
+            "aliases": [
+              "ukrw"
+            ]
+          },
+          {
+            "denom": "krt",
+            "exponent": 6
+          }
+        ],
+        "base": "ibc/204A582244FC241613DBB50B04D1D454116C58C4AF7866C186AA0D6EEAD42780",
+        "name": "TerraKRW",
+        "display": "krt",
+        "symbol": "KRT",
+        "ibc": {
+          "source_channel": "channel-1",
+          "dst_channel": "channel-72",
+          "source_denom": "ukrw"
+        },
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/krt.png"
+        },
+        "coingecko_id": "terra-krw"
+      }
+    ]
+  },
+  {
+    "chain_id": "cosmoshub-4",
+    "chain_name": "Cosmos",
+    "assets": [
+      {
+        "description": "The native staking token of Terra.",
+        "denom_units": [
+          {
+            "denom": "ibc/2154552F1CE0EF16FAC73B41A837A7D91DD9D2B6E193B53BE5C15AB78E1CFF40",
+            "exponent": 0,
+            "aliases": [
+              "uluna"
+            ]
+          },
+          {
+            "denom": "luna",
+            "exponent": 6
+          }
+        ],
+        "base": "ibc/2154552F1CE0EF16FAC73B41A837A7D91DD9D2B6E193B53BE5C15AB78E1CFF40",
+        "name": "Luna",
+        "display": "luna",
+        "symbol": "LUNA",
+        "ibc": {
+          "source_channel": "channel-2",
+          "dst_channel": "channel-219",
+          "source_denom": "uluna"
+        },
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/luna.png",
+          "svg": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/luna.svg"
+        },
+        "coingecko_id": "terra-luna"
+      },
+      {
+        "description": "The USD stablecoin of Terra.",
+        "denom_units": [
+          {
+            "denom": "ibc/5BAC41A24DE0C0703EA1A77866AC86BF1EF4EA71F26F132D1EFEEAF64405AB54",
+            "exponent": 0,
+            "aliases": [
+              "uust"
+            ]
+          },
+          {
+            "denom": "ust",
+            "exponent": 6
+          }
+        ],
+        "base": "ibc/5BAC41A24DE0C0703EA1A77866AC86BF1EF4EA71F26F132D1EFEEAF64405AB54",
+        "name": "TerraUSD",
+        "display": "ust",
+        "symbol": "UST",
+        "ibc": {
+          "source_channel": "channel-2",
+          "dst_channel": "channel-219",
+          "source_denom": "uusd"
+        },
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/ust.png"
+        },
+        "coingecko_id": "terrausd"
+      },
+      {
+        "description": "The KRW stablecoin of Terra.",
+        "denom_units": [
+          {
+            "denom": "ibc/BDE165955287C32EE4B125781D1CE37A7F965764FEC3E5ED15DF7CB873BA4279",
+            "exponent": 0,
+            "aliases": [
+              "ukrt"
+            ]
+          },
+          {
+            "denom": "krt",
+            "exponent": 6
+          }
+        ],
+        "base": "ibc/BDE165955287C32EE4B125781D1CE37A7F965764FEC3E5ED15DF7CB873BA4279",
+        "name": "TerraKRW",
+        "display": "krt",
+        "symbol": "KRT",
+        "ibc": {
+          "source_channel": "channel-2",
+          "dst_channel": "channel-219",
+          "source_denom": "ukrw"
+        },
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/krt.png"
+        },
+        "coingecko_id": "terra-krw"
+      }
+    ]
+  },
+  {
+    "chain_id": "secret-4",
+    "chain_name": "Secret Network",
+    "assets": [
+      {
+        "description": "The native staking token of Terra.",
+        "denom_units": [
+          {
+            "denom": "ibc/D70B0FBF97AEB04491E9ABF4467A7F66CD6250F4382CE5192D856114B83738D2",
+            "exponent": 0,
+            "aliases": [
+              "uluna"
+            ]
+          },
+          {
+            "denom": "luna",
+            "exponent": 6
+          }
+        ],
+        "base": "ibc/D70B0FBF97AEB04491E9ABF4467A7F66CD6250F4382CE5192D856114B83738D2",
+        "name": "Luna",
+        "display": "luna",
+        "symbol": "LUNA",
+        "ibc": {
+          "source_channel": "channel-16",
+          "dst_channel": "channel-2",
+          "source_denom": "uluna"
+        },
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/luna.png",
+          "svg": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/luna.svg"
+        },
+        "coingecko_id": "terra-luna"
+      },
+      {
+        "description": "The USD stablecoin of Terra.",
+        "denom_units": [
+          {
+            "denom": "ibc/F341E5FD11E5A747A62A1BA11D13D25AF9708D1C63944E1E4762ADA883BC46F5",
+            "exponent": 0,
+            "aliases": [
+              "uust"
+            ]
+          },
+          {
+            "denom": "ust",
+            "exponent": 6
+          }
+        ],
+        "base": "ibc/F341E5FD11E5A747A62A1BA11D13D25AF9708D1C63944E1E4762ADA883BC46F5",
+        "name": "TerraUSD",
+        "display": "ust",
+        "symbol": "UST",
+        "ibc": {
+          "source_channel": "channel-16",
+          "dst_channel": "channel-2",
+          "source_denom": "uusd"
+        },
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/ust.png"
+        },
+        "coingecko_id": "terrausd"
+      },
+      {
+        "description": "The KRW stablecoin of Terra.",
+        "denom_units": [
+          {
+            "denom": "ibc/4294C3DB67564CF4A0B2BFACC8415A59B38243F6FF9E288FBA34F9B4823BA16E",
+            "exponent": 0,
+            "aliases": [
+              "ukrt"
+            ]
+          },
+          {
+            "denom": "krt",
+            "exponent": 6
+          }
+        ],
+        "base": "ibc/4294C3DB67564CF4A0B2BFACC8415A59B38243F6FF9E288FBA34F9B4823BA16E",
+        "name": "TerraKRW",
+        "display": "krt",
+        "symbol": "KRT",
+        "ibc": {
+          "source_channel": "channel-16",
+          "dst_channel": "channel-2",
+          "source_denom": "ukrw"
+        },
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/krt.png"
+        },
+        "coingecko_id": "terra-krw"
+      }
+    ]
+  }
+]
