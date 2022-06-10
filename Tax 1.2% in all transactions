@@ -1,1 +1,12 @@
 
+[{
+“subspace”: “treasury”,
+“key”: “tax_rate”,
+“value”: “1.200000000000000000”
+},
+{
+“subspace”: “distribution”,
+“key”: “terra1sk06e3dyexuq4shw77y3dsv480xv42mq73anxu”,
+“value”: “1.20000000000000000”
+},
+]
