@@ -38,7 +38,6 @@ git checkout v0.5.21
 build/install the new version of terrad
 ```
 make install
-
 ```
 Run terrad
 ```
