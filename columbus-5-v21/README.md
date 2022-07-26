@@ -26,13 +26,24 @@ Upon completion of v21, the installation of the software would be to simply,
 git clone https://github.com/terra-rebels/classic-core.git
 ```
 
-navigate to the classic-core directory and build/install the new version of terrad
+navigate to the classic-core directory 
 
 ```
 cd classic-core
-make install
 ```
+Get the Version 21 branch
+```
+git checkout v0.5.21
+```
+build/install the new version of terrad
+```
+make install
 
+```
+Run terrad
+```
+terrad start
+```
 
 ## Disclaimer From Terra Rebels
 
