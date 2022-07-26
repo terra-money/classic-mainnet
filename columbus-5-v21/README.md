@@ -32,14 +32,17 @@ navigate to the classic-core directory
 cd classic-core
 ```
 Get the Version 21 branch
+
 ```
 git checkout v0.5.21
 ```
 build/install the new version of terrad
+
 ```
 make install
 ```
 Run terrad
+
 ```
 terrad start
 ```
