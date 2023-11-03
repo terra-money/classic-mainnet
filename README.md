@@ -45,7 +45,7 @@ ba5abb29421c44a8d5172d97206dd56342134a23@terra-mainnet-seed.larry.coffee:26656
 235b5e97d7932e72fc846adcc712cd71e2a1b1be@seed.terra.lunarnode.org:26656
 7575f4fdf92c4b63b2bf3e57ea0bced03b004792@3.35.101.38:26656
 48fca58b12438e618a596e9aab634b4ef46ea67b@34.218.166.180:26656
-1757b212d15840d9a8781bb4a8c201a9dd70d0fa@seed-mainnet.moonshot.army:26656
+a7d09c24c9faaaa85807250aab80abd88ec97f6f@seed-terrac-mainnet.moonshot.army:26652
 5e7cdd3f0684dbab8d7fa5d18de3e9194859be03@seed.terra.btcsecure.io:26656
 b1bdf6249fb58b4c8284aff8a9c5b2804d822261@seed.terra.synergynodes.com:26656
 92bcd725fb130530263704a4716da9c942becfa7@seed.mcontrol.ml:26656
